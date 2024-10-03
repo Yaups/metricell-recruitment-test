@@ -1,10 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import EmployeeList from "./components/EmployeeList";
 
 export default class App extends Component {
-
-  render () {
+  render() {
     return (
-      <div>Complete your app here</div>
+      <>
+        <EmployeeList />
+      </>
     );
   }
 }
